@@ -10,12 +10,14 @@
       <stop offset="1" stop-color="#34d399"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
-  <g fill="none" stroke="url(#g)" stroke-width="16" stroke-linecap="round" opacity="0.85">
-    <path d="M148 344 L256 176 L364 344"/>
-    <path d="M148 344 H364" opacity="0.45"/>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(96 96) scale(0.625)">
+    <g fill="none" stroke="url(#g)" stroke-width="16" stroke-linecap="round" opacity="0.85">
+      <path d="M148 344 L256 176 L364 344"/>
+      <path d="M148 344 H364" opacity="0.45"/>
+    </g>
+    <circle cx="148" cy="344" r="38" fill="#3b82f6"/>
+    <circle cx="256" cy="176" r="38" fill="#8b5cf6"/>
+    <circle cx="364" cy="344" r="38" fill="#34d399"/>
   </g>
-  <circle cx="148" cy="344" r="38" fill="#3b82f6"/>
-  <circle cx="256" cy="176" r="38" fill="#8b5cf6"/>
-  <circle cx="364" cy="344" r="38" fill="#34d399"/>
 </svg>
